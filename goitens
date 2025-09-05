@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vim redakt</title>
+    <style>
+
+        .text-box > h3:first-child {
+            color: pink;
+        }
+
+        #greycol {
+            color: grey;
+        }
+
+        .text-box > div > p {
+            color: red;
+        }
+
+        .text-box > p:last-child {
+            color: green;
+        }
+
+        .text-box .yellow {
+            color: yellow;
+        }
+
+        .schedule {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .day {
+            border: 1px solid #bdc3c7;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            min-width: 180px;
+        }
+
+        .day h2 {
+            margin-top: 0;
+            color: #4b97e4;
+            text-align: center;
+        }
+
+        .day ul li:active {
+            background-color: #ffe4e1;
+        }
+
+        .day ul li:focus {
+            outline: 2px solid #ff6b6b;
+        }
+
+        .day h2:target {
+            color: #85141e;
+        }
+
+        .day ul li:first-child {
+            color: #cb3ce7;
+            font-weight: bold;
+        }
+
+        .day ul li:last-child {
+            color: #ada644;
+            font-style: italic;
+        }
+
+        .day ul li:nth-child(2n) {
+            background-color: #ecf0f1;
+        }
+
+        .day ul li:nth-child(3) {
+            color: #3027ae;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-box"><h1>  списки уроків  </h1>
+    </div>
+
+    <div class="schedule">
+        <div class="day">
+            <h2>Понеділок</h2>
+            <ul>
+                <li>Математика</li>
+                <li>Українська мова</li>
+                <li>Англійська мова</li>
+                <li>Фізика</li>
+                <li>Історія</li>
+            </ul>
+        </div>
+        <div class="day">
+            <h2>Вівторок</h2>
+            <ul>
+                <li>Хімія</li>
+                <li>Біологія</li>
+                <li>Географія</li>
+                <li>Фізкультура</li>
+                <li>Мистецтво</li>
+            </ul>
+        </div>
+        <!-- mikola -->
+        <div class="day">
+            <h2>Середа</h2>
+            <ul>
+                <li>Інформатика</li>
+                <li>Література</li>
+                <li>Математика</li>
+                <li>Англійська мова</li>
+                <li>Трудове навчання</li>
+            </ul>
+        </div>
+        <div class="day">
+            <h2>Четвер</h2>
+            <ul>
+                <li>Фізика</li>
+                <li>Хімія</li>
+                <li>Українська мова</li>
+                <li>Фізкультура</li>
+                <li>Основи здоров'я</li>
+            </ul>
+        </div>
+        <div class="day">
+            <h2>П'ятниця</h2>
+            <ul>
+                <li>Англійська мова</li>
+                <li>Математика</li>
+                <li>Музика</li>
+                <li>Історія</li>
+                <li>Класна година</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
