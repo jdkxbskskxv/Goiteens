@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    
+    <link rel="stylesheet" href="normalize.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .task2-element {
+            width: 350px;
+            height: 220px;
+            padding: 15px 10px 20px 10px;
+            margin-bottom: 30px;
+            border: 2px dashed red;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2 {
+            color: #333;
+            margin-bottom: 18px;
+        }
+        
+        p {
+            margin-bottom: 14px;
+        }
+        
+        ul {
+            margin-left: 21px;
+        }
+        
+        li {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WebStudio</h1>
+        
+        <p>Приклад сторінки з normalize.css</p>
+        
+        <h2>Елемент для задачі 2</h2>
+        <div class="task2-element">
+            <p>:</p>
+            <ul>
+                <li>m</li>
+            </ul>
+        </div>
+        
+        <p>m</p>
+    </div>
+</body>
+</html>
